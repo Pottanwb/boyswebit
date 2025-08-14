@@ -1,0 +1,136 @@
+
+.top-bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: white;
+}
+h1{
+  font-family: Tahoma;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+.profile-container{
+  position: relative;
+  text-align: center;
+  width: 250px;
+  justify-self: center;
+}
+.image1{
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  
+}
+button{
+  background-color: #59c2f9;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+button:active{
+  background-color: black;
+  color: #59c2f9;
+  border-radius: 0px;
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+.text1{
+  position: absolute;
+  left: -135px;
+  top: 80px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text2{
+  position: absolute;
+  left: -140px;
+  top: 90px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text3{
+  position: absolute;
+  left: -140px;
+  top: 130px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text4{
+  position: absolute;
+  left: -130px;
+  top: 90px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text5{
+  position: absolute;
+  left: -100px;
+  top: 140px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text6{
+  position: absolute;
+  left: -80px;
+  top: 115px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text7{
+  position: absolute;
+  left: -100px;
+  top: 145px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+.text8{
+  position: absolute;
+  left: -120px;
+  top: 100px;
+  font-family: Times New Roman;
+  transform: rotate(-90deg);
+  padding: 0px;
+}
+nav{
+  width: 100%;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F9FA;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+nav a{
+  margin: 10px;
+  
+  color: #20C997;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  margin-top: 50px;
+  background-color: grey;
+  text-align: center;
+  font-family: Times New Roman;
+  color: black;
+  padding: 0px;
+}
